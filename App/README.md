@@ -1,6 +1,6 @@
 ## About Traffic-Light App
 
-An app that can control an arduino traffic light
+An app that can control an Traffic-Light Arduino
 
 > Under Development.
 
