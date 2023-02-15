@@ -2,8 +2,6 @@
 
 An app that can control an Traffic-Light Arduino
 
-> Under Development.
-
 ## Usage
 
 -Windows-
