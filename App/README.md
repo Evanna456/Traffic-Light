@@ -1,6 +1,6 @@
-## About MAUI-Traffic-Light-Control
+## About Traffic-Light App
 
-An app that can control [Arduino-Traffic-Light](https://github.com/Evanna456/Arduino-Traffic-Light) 
+An app that can control an arduino traffic light
 
 > Under Development.
 
