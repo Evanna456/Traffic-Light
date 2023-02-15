@@ -1,8 +1,6 @@
-## About Arduino-Traffic-Light
+## About Traffic-Light Arduino
 
-Traffic Light Code.
-
-> Under Development.
+Traffic Light Arduino Code.
 
 ## Usage
 
@@ -17,8 +15,6 @@ Arduino is an open-source hardware and software company, project, and user commu
 * [Github](https://github.com/arduino/Arduino)
 * [Documentation](https://docs.arduino.cc/)
 
-## Author's Notes
-
 ## License
 
-Traffic-Light is licensed under [MIT](https://choosealicense.com/licenses/mit/)
+Traffic-Light Arduino is licensed under [MIT](https://choosealicense.com/licenses/mit/)
