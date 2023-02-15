@@ -1,4 +1,4 @@
-## About Traffic-Light Arduino
+## Traffic-Light Arduino
 
 Traffic Light Arduino Code.
 
@@ -6,7 +6,7 @@ Traffic Light Arduino Code.
 
 For Managing Traffic.
 
-## About Arduino
+## Arduino
 
 <p align="center"><img src="https://i.imgur.com/WnnhULZ.png" width="150px" height="auto" alt="Logo"></a></p>
 
