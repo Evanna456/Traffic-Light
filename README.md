@@ -11,8 +11,6 @@ Arduino is an open-source hardware and software company, project, and user commu
 * [Github](https://github.com/arduino/Arduino)
 * [Documentation](https://docs.arduino.cc/)
 
-## Author's Notes
-
 ## License
 
 Traffic-Light Embedded Project is licensed under [MIT](https://choosealicense.com/licenses/mit/)
