@@ -1,4 +1,4 @@
-## About Traffic-Light App
+## Traffic-Light App
 
 An app that can control an Traffic-Light Arduino
 
@@ -11,7 +11,7 @@ An app that can control an Traffic-Light Arduino
 * 3.)Enable Apps Sideloading/Install apps from any source.
 * 4.)Install and Run the Application
 
-## About MAUI
+## MAUI
 
 <p align="center"><img src="https://i.imgur.com/7mbari5.png" width="150px" height="auto" alt="Logo"></a></p>
 
@@ -22,4 +22,4 @@ An app that can control an Traffic-Light Arduino
 
 ## License
 
-About Traffic-Light App is licensed under [MIT](https://choosealicense.com/licenses/mit/)
+Traffic-Light App is licensed under [MIT](https://choosealicense.com/licenses/mit/)
