@@ -1,4 +1,4 @@
-## About Traffic-Light Embedded Project
+## Traffic-Light Embedded Project
 
 A traffic light device that can be controlled by an app.
 
