@@ -29,4 +29,4 @@ An app that can control an arduino traffic light
 
 ## License
 
-About MAUI-Traffic-Light-Control is licensed under [MIT](https://choosealicense.com/licenses/mit/)
+About Traffic-Light App is licensed under [MIT](https://choosealicense.com/licenses/mit/)
