@@ -11,11 +11,6 @@ An app that can control an Traffic-Light Arduino
 * 3.)Enable Apps Sideloading/Install apps from any source.
 * 4.)Install and Run the Application
 
--Android-
-
-* 1.)Install APK.
-* 2.)Run the Application.
-
 ## About MAUI
 
 <p align="center"><img src="https://i.imgur.com/7mbari5.png" width="150px" height="auto" alt="Logo"></a></p>
