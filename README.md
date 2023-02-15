@@ -2,7 +2,7 @@
 
 A traffic light device that can be controlled by an app.
 
-## About Arduino
+## Arduino
 
 <p align="center"><img src="https://i.imgur.com/WnnhULZ.png" width="150px" height="auto" alt="Logo"></a></p>
 
