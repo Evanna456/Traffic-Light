@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_Traffic_Light_Control.Views.Index"
+             NavigationPage.HasNavigationBar="false"
+             xmlns:vm="clr-namespace:MAUI_Traffic_Light_Control.ViewModels"
+             Title="Index">
+
+    <ContentPage.BindingContext>
+        <vm:IndexViewModel/>
+    </ContentPage.BindingContext>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="200" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <StackLayout Grid.Row="1" Grid.Column="1" Orientation="Vertical">
+        <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="1" Grid.Column="1"
+            HorizontalOptions="End"
+            VerticalOptions="Start"
+            Margin="5,5"
+            Text=" Power:"
+            />
+            <Switch Grid.Row="1" Grid.Column="2"
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             Margin="5, 0"
+             IsToggled="{Binding IndexModel.IsPowerToggled, UpdateSourceEventName=PropertyChanged, Mode=TwoWay}" 
+             />
+                <Label Grid.Row="2" Grid.Column="1"
+            HorizontalOptions="End"
+            VerticalOptions="Start"
+            Margin="5,5"
+            Text="Red Light Duration:"
+            />
+            <Entry Grid.Row="2" Grid.Column="2"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
+            Margin="5, 0"
+            WidthRequest="90"
+            Placeholder="10" 
+            Text="{Binding IndexModel.RedLightDuration, UpdateSourceEventName=PropertyChanged, Mode=TwoWay}"
+            />
+            <Label Grid.Row="3" Grid.Column="1"
+            HorizontalOptions="End"
+            VerticalOptions="Start"
+            Margin="5,5"
+            Text="Yellow Light Duration:"
+            />
+            <Entry Grid.Row="3" Grid.Column="2"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
+            Margin="5, 0"
+            WidthRequest="90"
+            Placeholder="10" 
+            Text="{Binding IndexModel.YellowLightDuration, UpdateSourceEventName=PropertyChanged, Mode=TwoWay}"
+            />
+            <Label Grid.Row="4" Grid.Column="1"
+            HorizontalOptions="End"
+            VerticalOptions="Start"
+            Margin="5,5"
+            Text="Green Light Duration:"
+            />
+            <Entry Grid.Row="4" Grid.Column="2"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
+            Margin="5, 0"
+            WidthRequest="90"
+            Placeholder="10" 
+            Text="{Binding IndexModel.GreenLightDuration, UpdateSourceEventName=PropertyChanged, Mode=TwoWay}"
+            />
+        </Grid>
+    </StackLayout>
+
+        <Button Grid.Row="2" Grid.Column="1"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            Text="Save"
+            WidthRequest="100"
+            Command="{Binding SaveCommand}"
+            />
+    </Grid>
+</ContentPage>
